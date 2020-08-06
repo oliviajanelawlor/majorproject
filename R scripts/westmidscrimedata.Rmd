@@ -1,0 +1,71 @@
+---
+title: "West Midlands crimes during lockdown compared to last year"
+output: html_notebook
+---
+
+This R package is simply to merge all of the data together from the months March-June in 2020 and 2019, both in seperate years. From this I am going to attempt to see if there was a decline in arrests during the turn of lockdown and attempt to find out the reason for this. 
+
+So first off we are going to install all the relevant packages we need and put them into our library.
+
+```{r}
+install.packages("dplyr")
+install.packages("readr")
+install.packages("plyr")
+
+library("dplyr")
+library("plyr")
+library("readr")
+```
+
+Now we are going to begin by finding all of the files in the relevant folder so that R can merge them together. This is for the 2020 data.
+
+We will then double check the data has the right amount of rows and columns, and then write the combined data into a CSV so that we can analyse it on Excel, as that is what we are more comfortable with! 
+
+```{r}
+data_all <- list.files(path = "westmidsdata",
+                       pattern = "*csv", full.names = TRUE)%>%
+  
+  lapply(read_csv) %>%
+  bind_rows
+
+data_all
+
+write.csv(data_all,"westmidsdata/compileddata.csv", row.names = FALSE)
+
+```
+
+We are now going to do exactly the same thing for our data in 2019, I'm not sure why I have done this a bit backwards but that is fine. We will get the data either way! 
+
+I put all of the data into a seperate folder so that it keeps it easy for R and doesn't get too confusing. But we are essentially going to copy the code and change a few little bits, including where we are going to make R look and what we are going to call the final csv file.
+
+We shall also call it a different variable so that it just makes more sense. We want to keep these as seperate as possible! 
+
+```{r}
+previous_data <- list.files(path = "westmidsdata2",
+                       pattern = "*csv", full.names = TRUE)%>%
+  
+  lapply(read_csv) %>%
+  bind_rows
+```
+
+Looking at the data environment to the top right (which you won't be able to see, but I can, muahahahaha), it already looks like there has been a decline in crimes in 2020 during the lockdown. 
+
+```{r}
+write.csv(previous_data,"westmidsdata2/compileddata.csv", row.names = FALSE)
+```
+
+Just so we can compare it even further, I am going to do the same with the 2018 data, so we can see whether 2019 was just a fluke... got to stay skeptical! 
+
+```{r}
+other_data <- list.files(path = "westmidsdata3",
+                       pattern = "*csv", full.names = TRUE)%>%
+  
+  lapply(read_csv) %>%
+  bind_rows
+```
+
+And it seems like it may have been a fluke as there was only 179,869 rows in this dataset... that puts a bit of a spanner in the works, but I'm still going to download the combined data so that I can compare it to 2019 and 2020. 
+
+```{r}
+write.csv(other_data,"westmidsdata3/combineddata.csv", row.names = FALSE)
+```
