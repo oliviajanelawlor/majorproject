@@ -1,0 +1,50 @@
+---
+title: "COVID-19 crime data"
+output: html_notebook
+---
+
+I am going to merge all of the data together so I can analyse whether crime rates have increased during covid-19 despite there being less people taken into prisons.
+
+As there are a lot of csvs to organise and sort through, I am instead going to try out this code from stackoverflow. 
+
+```{r}
+install.packages("dplyr")
+install.packages("readr")
+install.packages("plyr")
+
+library("dplyr")
+library("plyr")
+library("readr")
+```
+This code is going to read all of the csvs in the folder which has 86 seperate csvs. 
+
+Since they all have the same headings etc, I am going to attempt to merge this data afterwards. 
+
+
+```{r}
+data_all <- list.files(path = "covid data", 
+                       pattern = "*.csv", full.names = TRUE)%>%
+ 
+  lapply(read_csv) %>%                                          
+  bind_rows                                                       
+  data_all 
+```
+
+```{r}
+as.data.frame(data_all)
+
+head(data_all, n=10)
+dim(data_all)
+
+write.csv(data_all,"final/completedata.csv", col.names = FALSE)
+
+```
+
+Now that we have combined all of the data, I'm going to try and analyse some of this data so that I can get some information from it.
+
+```{r}
+data_all %>%
+select('Outcome type')
+summarise(data_all,)
+
+```
