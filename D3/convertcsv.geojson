@@ -1,0 +1,305 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.435973,55.378051 ]
+    },
+    "properties": {
+    "Country":"United Kingdom",
+    "April":" 24,070.00 ",
+    "Percentage":"25.77%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Country":"France",
+    "April":" 21,037.00 ",
+    "Percentage":"22.52%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.56738,41.87194 ]
+    },
+    "properties": {
+    "Country":"Italy",
+    "April":" 16,091.00 ",
+    "Percentage":"17.23%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.74922,40.463667 ]
+    },
+    "properties": {
+    "Country":"Spain",
+    "April":" 15,177.00 ",
+    "Percentage":"16.25%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.469936,50.503887 ]
+    },
+    "properties": {
+    "Country":"Belgium",
+    "April":" 6,796.00 ",
+    "Percentage":"7.28%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.291266,52.132633 ]
+    },
+    "properties": {
+    "Country":"Netherlands",
+    "April":" 3,847.00 ",
+    "Percentage":"4.12%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.643501,60.128161 ]
+    },
+    "properties": {
+    "Country":"Sweden",
+    "April":" 2,316.00 ",
+    "Percentage":"2.48%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.227512,46.818188 ]
+    },
+    "properties": {
+    "Country":"Switzerland",
+    "April":" 1,079.00 ",
+    "Percentage":"1.16%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.224454,39.399872 ]
+    },
+    "properties": {
+    "Country":"Portugal",
+    "April":" 833.00 ",
+    "Percentage":"0.89%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.550072,47.516231 ]
+    },
+    "properties": {
+    "Country":"Austria",
+    "April":" 472.00 ",
+    "Percentage":"0.51%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.501785,56.26392 ]
+    },
+    "properties": {
+    "Country":"Denmark",
+    "April":" 366.00 ",
+    "Percentage":"0.39%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.503304,47.162494 ]
+    },
+    "properties": {
+    "Country":"Hungary",
+    "April":" 296.00 ",
+    "Percentage":"0.32%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.472962,49.817492 ]
+    },
+    "properties": {
+    "Country":"Czechia",
+    "April":" 203.00 ",
+    "Percentage":"0.22%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.748151,61.92411 ]
+    },
+    "properties": {
+    "Country":"Finland",
+    "April":" 193.00 ",
+    "Percentage":"0.21%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.468946,60.472024 ]
+    },
+    "properties": {
+    "Country":"Norway",
+    "April":" 176.00 ",
+    "Percentage":"0.19%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.005859,44.016521 ]
+    },
+    "properties": {
+    "Country":"Serbia",
+    "April":" 160.00 ",
+    "Percentage":"0.17%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.995463,46.151241 ]
+    },
+    "properties": {
+    "Country":"Slovenia",
+    "April":" 78.00 ",
+    "Percentage":"0.08%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.129583,49.815273 ]
+    },
+    "properties": {
+    "Country":"Luxembourg",
+    "April":" 67.00 ",
+    "Percentage":"0.07%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.48583,42.733883 ]
+    },
+    "properties": {
+    "Country":"Bulgaria",
+    "April":" 56.00 ",
+    "Percentage":"0.06%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.013607,58.595272 ]
+    },
+    "properties": {
+    "Country":"Estonia",
+    "April":" 47.00 ",
+    "Percentage":"0.05%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.699024,48.669026 ]
+    },
+    "properties": {
+    "Country":"Slovakia",
+    "April":" 22.00 ",
+    "Percentage":"0.02%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.603189,56.879635 ]
+    },
+    "properties": {
+    "Country":"Latvia",
+    "April":" 15.00 ",
+    "Percentage":"0.02%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -19.020835,64.963051 ]
+    },
+    "properties": {
+    "Country":"Iceland",
+    "April":" 8.00 ",
+    "Percentage":"0.01%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.37439,42.708678 ]
+    },
+    "properties": {
+    "Country":"Montenegro",
+    "April":" 5.00 ",
+    "Percentage":"0.01%"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.555373,47.166 ]
+    },
+    "properties": {
+    "Country":"Liechtenstein",
+    "April":" 1.00 ",
+    "Percentage":"0.00%"
+    }
+  }
+]
+}
